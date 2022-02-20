@@ -1,9 +1,14 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 #container {
     display: grid;
-    width: 320px;
-    height: 320px;
-    grid-template-columns: repeat(16, 1fr);
-    padding: 0px;
-    margin: 50px;
-    grid-template-rows: repeat(16, 1fr);
+    width: 500px;
+    height: 500px;
+
 }
